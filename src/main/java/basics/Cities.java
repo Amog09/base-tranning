@@ -34,8 +34,9 @@ public class Cities {
 		while (!stateFound) {
 			String state = states[n];
 			System.out.println("States " + n + ": " + state);
-			if (state == "Ohio") {
+			if (state == "Kathmandu") {
 				System.out.println("The state is Found!");
+				System.out.println("I am going back.");				
 				stateFound = true;
 			}
 
