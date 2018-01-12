@@ -12,19 +12,21 @@ public class Cities {
 
 		}
 		System.out.println("*+*+*+*+*+*+*+*+*+*+*+*");
-		String[] states = new String[5];
+		String[] states = new String[7];
 		states[0] = "New York";
 		states[1] = "New Jersey";
 		states[2] = "Texas";
 		states[3] = "Ohio";
 		states[4] = "Colorado";
+		states[5] = "Kathmandu";
+		states[6] = "Las Vegas";
 
 		int i = 0;
 		// do loop: enters the loop then tests condition.
 		do {
 			System.out.println("States: " + states[i]);
 			i = i + 1;
-		} while (i < 5);
+		} while (i < 7);
 		System.out.println("*+*+*+*+*+*+*+*+*+*+*+*");
 		// while loop; tests condition first then enters loop.
 		int n = 0;
@@ -42,7 +44,7 @@ public class Cities {
 
 		// for Loop: best structure to iterate through the array
 		System.out.println("\nPrinting with loops");
-		for (int a = 0; a < 5; a++) {
+		for (int a = 0; a < 7; a++) {
 			System.out.println(states[a]);
 		}
 
